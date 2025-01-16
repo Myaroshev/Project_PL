@@ -1,0 +1,183 @@
+﻿<Window x:Class="NewProject_PL.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Панель администратора"
+        Height="569"
+        Width="1098"
+        ResizeMode="CanMinimize"
+        WindowStyle="None"
+        Background="White"
+        MouseDown="Window_MouseDown">
+
+    <Border BorderBrush="Gray" BorderThickness="1">
+        <Grid Background="#FFFFE0C0" Height="622" VerticalAlignment="Top">
+            <!--заголовок -->
+            <Border Background="#FFFFE0C0" Height="40" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+                <Grid>
+                    <Image Source="/exit.png"
+                        Width="65"
+                        Height="54"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Top"
+                        Margin="970,0,0,0"
+                        RenderTransformOrigin="3.031,0.407"
+                        MouseLeftButtonDown="Image_MouseLeftButtonUp"
+                        IsHitTestVisible="True"
+                        Focusable="True"/>
+
+                    <Label x:Name="AdminLabel" Content="Панель администратора"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Center"
+                       FontSize="24"
+                       FontWeight="Bold"
+                       Foreground="#FFB85042"
+                       Margin="10,0,0,0" FontFamily="Comic Sans MS" Background="#FFFFE0C0"/>
+
+                    <Button Content="X"
+                        Width="30"
+                        Height="30"
+                        Background="Red"
+                        Foreground="White"
+                        FontWeight="Bold"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Center"
+                        Margin="0,0,10,0"
+                        Click="CloseButton_Click" />
+                </Grid>
+            </Border>
+
+
+            <StackPanel Margin="10,50,10,10" Orientation="Vertical">
+                <!-- Добавление читателя -->
+                <StackPanel Orientation="Vertical" Margin="0,5,0,5">
+                    <Label Content="Добавление читателя"
+           FontWeight="Bold"
+           FontSize="16"
+           VerticalAlignment="Center"
+           Margin="0,0,0,5"/>
+                    <Border BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Padding="5">
+                        <StackPanel Orientation="Horizontal">
+                            <StackPanel Orientation="Vertical" Margin="3">
+                                <Label Content="Фамилия" FontSize="12" />
+                                <TextBox x:Name="LastNameTextBox" Width="150" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" />
+                            </StackPanel>
+
+                            <StackPanel Orientation="Vertical" Margin="3">
+                                <Label Content="Имя" FontSize="12" />
+                                <TextBox x:Name="FirstNameTextBox" Width="150" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" />
+                            </StackPanel>
+
+                            <StackPanel Orientation="Vertical" Margin="3">
+                                <Label Content="Дата рождения" FontSize="12" />
+                                <DatePicker x:Name="BirthDatePicker" Width="150" SelectedDateFormat="Short" />
+                            </StackPanel>
+
+                            <StackPanel Orientation="Vertical" Margin="3">
+                                <Label Content="Номер билета" FontSize="12" />
+                                <TextBox x:Name="LibraryCardNumberTextBox" Width="150" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" IsReadOnly="True" MaxLength="20" />
+                            </StackPanel>
+
+                            <StackPanel Orientation="Vertical" Margin="3">
+                                <Label Content="Контакты (телефон)" FontSize="12" />
+                                <TextBox x:Name="ContactsTextBox" Width="150" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" MaxLength="11" />
+                            </StackPanel>
+
+                            <StackPanel Orientation="Vertical" Margin="3">
+                                <Label Content="Роль" FontSize="12" />
+                                <ComboBox x:Name="RoleComboBox" Width="150">
+                                    <ComboBoxItem Content="Читатель" IsSelected="True" />
+                                    <ComboBoxItem Content="Библиотекарь" />
+                                </ComboBox>
+                            </StackPanel>
+
+                            <Button Content="Добавить" Width="100" Margin="3" Click="AddReaderButton_Click" />
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+
+                <!-- Удаление читателя -->
+                <StackPanel Orientation="Vertical" Margin="0,5,0,5">
+                    <Label Content="Удаление читателя"
+           FontWeight="Bold"
+           FontSize="16"
+           VerticalAlignment="Center"
+           Margin="0,0,0,5"/>
+                    <Border BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Padding="5">
+                        <StackPanel Orientation="Horizontal">
+                            <StackPanel Orientation="Vertical" Margin="3">
+                                <Label Content="Номер билета" FontSize="12" />
+                                <TextBox x:Name="LibraryCardNumberDeleteTextBox" Width="150" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" MaxLength="20" />
+                            </StackPanel>
+                            <Button Content="Удалить" Width="100" Margin="3" Click="delete_readerButton_Click" />
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+
+                <!-- Формирование отчета -->
+                <StackPanel Orientation="Vertical" Margin="0,5,0,5">
+                    <Label Content="Формирование отчета"
+           FontWeight="Bold"
+           FontSize="16"
+           VerticalAlignment="Center"
+           Margin="0,0,0,5"/>
+                    <Border BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Padding="5">
+                        <StackPanel Orientation="Horizontal">
+                            <StackPanel Orientation="Vertical" Margin="3">
+                                <Label Content="Номер билета (необязательно)" FontSize="12" />
+                                <TextBox x:Name="ReportCardNumberTextBox" Width="193" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" Height="18" />
+                            </StackPanel>
+
+                            <StackPanel Orientation="Vertical" Margin="3">
+                                <Label Content="Начальная дата" FontSize="12" />
+                                <DatePicker x:Name="ReportStartDatePicker" Width="150" />
+                            </StackPanel>
+
+                            <StackPanel Orientation="Vertical" Margin="3">
+                                <Label Content="Конечная дата" FontSize="12" />
+                                <DatePicker x:Name="ReportEndDatePicker" Width="150" />
+                            </StackPanel>
+
+                            <Button Content="Сформировать отчет" Width="150" Margin="3" Click="GenerateReportButton_Click" />
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+
+                <!-- список читателей -->
+                <StackPanel Orientation="Vertical" Margin="0,20,0,0">
+                    <Grid Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="22*"/>
+                            <!-- звездочки для соблюдения пропорциональности-->
+                            <ColumnDefinition Width="257*"/>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- заголовок -->
+                        <Label Content="Список читателей"
+                            FontWeight="Bold"
+                            FontSize="16"
+                            VerticalAlignment="Center"
+                            Grid.Column="0" Grid.ColumnSpan="2"/>
+
+                        <!-- поле ввода -->
+                        <TextBox x:Name="SearchReaderTextBox"
+                            Width="200"
+                            Margin="82,0,525,0"
+                            TextChanged="SearchReaderTextBox_TextChanged" Height="21" VerticalAlignment="Center" Grid.Column="1"/>
+
+                        <!-- поиск -->
+                    </Grid>
+
+                    <!-- формирование списка читателей -->
+                    <DataGrid x:Name="ReadersDataGrid"
+                        AutoGenerateColumns="True"
+                        Height="105"
+                        SelectionChanged="ReadersDataGrid_SelectionChanged"/>
+                </StackPanel>
+
+            </StackPanel>
+
+        </Grid>
+    </Border>
+</Window>

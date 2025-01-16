@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|c:\\users\\addag\\source\\repos\\newproject_pl\\adddata.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|solutionrelative:adddata.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|c:\\users\\addag\\source\\repos\\newproject_pl\\readerplace.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|solutionrelative:readerplace.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|C:\\Users\\addag\\source\\repos\\NewProject_PL\\readerplace.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|solutionrelative:readerplace.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|C:\\Users\\addag\\source\\repos\\NewProject_PL\\adddata.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|solutionrelative:adddata.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|C:\\Users\\addag\\source\\repos\\NewProject_PL\\adddata.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|solutionrelative:adddata.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|C:\\Users\\addag\\source\\repos\\NewProject_PL\\reportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|solutionrelative:reportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|C:\\Users\\addag\\source\\repos\\NewProject_PL\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|solutionrelative:adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|C:\\Users\\addag\\source\\repos\\NewProject_PL\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|solutionrelative:adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|C:\\Users\\addag\\source\\repos\\NewProject_PL\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|C:\\Users\\addag\\source\\repos\\NewProject_PL\\dbconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|solutionrelative:dbconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|C:\\Users\\addag\\source\\repos\\NewProject_PL\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E857272-73AA-4E6A-B07C-C9CA94516070}|NewProject_PL.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 11,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddData.xaml",
+              "DocumentMoniker": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\AddData.xaml",
+              "RelativeDocumentMoniker": "AddData.xaml",
+              "ToolTip": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\AddData.xaml",
+              "RelativeToolTip": "AddData.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAABRwC4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-15T13:52:02.777Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 389,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReportWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\ReportWindow.xaml",
+              "RelativeDocumentMoniker": "ReportWindow.xaml",
+              "ToolTip": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\ReportWindow.xaml",
+              "RelativeToolTip": "ReportWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-12T21:44:33.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReaderPlace.xaml",
+              "DocumentMoniker": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\ReaderPlace.xaml",
+              "RelativeDocumentMoniker": "ReaderPlace.xaml",
+              "ToolTip": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\ReaderPlace.xaml",
+              "RelativeToolTip": "ReaderPlace.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-12T20:39:36.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReaderPlace.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\ReaderPlace.xaml.cs",
+              "RelativeDocumentMoniker": "ReaderPlace.xaml.cs",
+              "ToolTip": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\ReaderPlace.xaml.cs",
+              "RelativeToolTip": "ReaderPlace.xaml.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAnwJ8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T16:59:25.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "AdminWindow.xaml",
+              "ToolTip": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\AdminWindow.xaml",
+              "RelativeToolTip": "AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-12T20:38:57.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AdminWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "AdminWindow.xaml.cs",
+              "ViewState": "AQIAALQBAAAAAAAAAAAUwNgBAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T20:38:37.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DBConnector.cs",
+              "DocumentMoniker": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\DBConnector.cs",
+              "RelativeDocumentMoniker": "DBConnector.cs",
+              "ToolTip": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\DBConnector.cs",
+              "RelativeToolTip": "DBConnector.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAjwCQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T18:29:51.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddData.xaml",
+              "DocumentMoniker": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\AddData.xaml",
+              "RelativeDocumentMoniker": "AddData.xaml",
+              "ToolTip": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\AddData.xaml",
+              "RelativeToolTip": "AddData.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-05T20:01:54.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddData.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\AddData.xaml.cs",
+              "RelativeDocumentMoniker": "AddData.xaml.cs",
+              "ToolTip": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\AddData.xaml.cs",
+              "RelativeToolTip": "AddData.xaml.cs",
+              "ViewState": "AQIAAJgCAAAAAAAAAAAqwLgCAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T20:02:37.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-04T18:27:27.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\addag\\source\\repos\\NewProject_PL\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAowEwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T18:27:27.191Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
